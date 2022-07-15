@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'BYekran';
+    src: url('../fonts/BYekan.ttf');
+}
+body{
+    direction: rtl !important;
+    font-family: 'B Yekan' !important;
+    font-size: 2em;;
+}
+button{
+    font-family: 'B Yekan' !important;
+}
+#sketch{
+    width:320px;
+    height: 320px;
+    border:15px double #0076ff;
+    margin: auto;
+}
+#result{
+    font-size: 2em;
+}

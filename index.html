@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفبا ( الف - ب - ج - د )</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/3.18.0/tf.min.js" integrity="sha512-BI4yRLpuHJq/QOl2YugPqEuInx3dPoXOBE0uSaOOysCXlRK4JuD2E4Ije8bOE9UEpXY1Sqyk6Dvz/W8a6tJ2aQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <div id="sketch">
+        <canvas id="paint"></canvas>
+        <div>
+            نتیجه :‌<span id="result"></span>
+        </div>
+        <button onclick="predict()">پیش بینی </button>
+        <button onclick="Clear()">پاک کردن</button>
+    </div>
+    
+    <script src="./static/js/hw.js"></script>
+</body>
+</html>
